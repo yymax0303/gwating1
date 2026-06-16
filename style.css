@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.stApp {
+    background: linear-gradient(135deg, #fff0f6 0%, #fff5f0 50%, #f0f4ff 100%);
+}
+
+.hero {
+    background: linear-gradient(135deg, #ff6b9d, #ff8c69);
+    border-radius: 24px;
+    padding: 2rem 2rem 1.6rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+    box-shadow: 0 8px 32px rgba(255,107,157,0.3);
+}
+.hero h1 { font-size: 2rem; font-weight: 700; margin: 0; letter-spacing: -0.5px; }
+.hero p  { margin: 0.4rem 0 0; opacity: 0.9; font-size: 0.95rem; }
+
+.section-label {
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: #ff6b9d;
+    text-transform: uppercase;
+    margin: 1.6rem 0 0.4rem;
+}
+
+div.stButton > button {
+    width: 100%;
+    background: linear-gradient(135deg, #ff6b9d, #ff8c69);
+    color: white;
+    border: none;
+    border-radius: 14px;
+    padding: 0.85rem;
+    font-size: 1.05rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 1rem;
+    box-shadow: 0 4px 16px rgba(255,107,157,0.35);
+    transition: opacity 0.2s;
+}
+div.stButton > button:hover { opacity: 0.88; }
+
+div[data-baseweb="input"] input,
+div[data-baseweb="select"] div {
+    border-radius: 10px !important;
+}
+
+.success-box {
+    background: #fff;
+    border: 2px solid #ff6b9d;
+    border-radius: 18px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(255,107,157,0.15);
+}
+.success-box h2 { color: #ff6b9d; margin: 0 0 0.5rem; }
+.success-box p  { color: #555; margin: 0; }
+
+.match-card {
+    background: #fff;
+    border-radius: 18px;
+    padding: 1.2rem 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 16px rgba(255,107,157,0.12);
+    border: 1px solid #ffe0ec;
+}
+.match-rank { font-size: 0.75rem; font-weight: 700; color: #bbb; margin-bottom: 0.4rem; }
+.match-names {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+}
+.match-heart { font-size: 1.2rem; }
+.match-score { font-size: 0.9rem; font-weight: 700; margin-bottom: 0.4rem; }
+.match-bar-bg {
+    background: #f0f0f0;
+    border-radius: 99px;
+    height: 8px;
+    overflow: hidden;
+}
+.match-bar-fill {
+    height: 8px;
+    border-radius: 99px;
+    transition: width 0.6s ease;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.stApp {
+    background: linear-gradient(135deg, #fff0f6 0%, #fff5f0 50%, #f0f4ff 100%);
+}
+
+.hero {
+    background: linear-gradient(135deg, #ff6b9d, #ff8c69);
+    border-radius: 24px;
+    padding: 2rem 2rem 1.6rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+    box-shadow: 0 8px 32px rgba(255,107,157,0.3);
+}
+.hero h1 { font-size: 2rem; font-weight: 700; margin: 0; letter-spacing: -0.5px; }
+.hero p  { margin: 0.4rem 0 0; opacity: 0.9; font-size: 0.95rem; }
+
+.section-label {
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: #ff6b9d;
+    text-transform: uppercase;
+    margin: 1.6rem 0 0.4rem;
+}
+
+div.stButton > button {
+    width: 100%;
+    background: linear-gradient(135deg, #ff6b9d, #ff8c69);
+    color: white;
+    border: none;
+    border-radius: 14px;
+    padding: 0.85rem;
+    font-size: 1.05rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 1rem;
+    box-shadow: 0 4px 16px rgba(255,107,157,0.35);
+    transition: opacity 0.2s;
+}
+div.stButton > button:hover { opacity: 0.88; }
+
+div[data-baseweb="input"] input,
+div[data-baseweb="select"] div {
+    border-radius: 10px !important;
+}
+
+.success-box {
+    background: #fff;
+    border: 2px solid #ff6b9d;
+    border-radius: 18px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(255,107,157,0.15);
+}
+.success-box h2 { color: #ff6b9d; margin: 0 0 0.5rem; }
+.success-box p  { color: #555; margin: 0; }
+
+.match-card {
+    background: #fff;
+    border-radius: 18px;
+    padding: 1.2rem 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 16px rgba(255,107,157,0.12);
+    border: 1px solid #ffe0ec;
+}
+.match-rank { font-size: 0.75rem; font-weight: 700; color: #bbb; margin-bottom: 0.4rem; }
+.match-names {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+}
+.match-heart { font-size: 1.2rem; }
+.match-score { font-size: 0.9rem; font-weight: 700; margin-bottom: 0.4rem; }
+.match-bar-bg {
+    background: #f0f0f0;
+    border-radius: 99px;
+    height: 8px;
+    overflow: hidden;
+}
+.match-bar-fill {
+    height: 8px;
+    border-radius: 99px;
+    transition: width 0.6s ease;
+}
+
+/* 채팅 */
+.chat-box {
+    background: #fafafa;
+    border: 1px solid #ffe0ec;
+    border-radius: 18px;
+    padding: 1.2rem;
+    min-height: 200px;
+    max-height: 420px;
+    overflow-y: auto;
+    margin-bottom: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+.chat-empty {
+    color: #bbb;
+    text-align: center;
+    margin: auto;
+    font-size: 0.9rem;
+}
+.chat-row {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+}
+.chat-row.right { align-self: flex-end; align-items: flex-end; }
+.chat-row.left  { align-self: flex-start; align-items: flex-start; }
+.chat-sender {
+    font-size: 0.72rem;
+    color: #999;
+    margin-bottom: 0.15rem;
+    padding: 0 0.3rem;
+}
+.chat-bubble {
+    padding: 0.55rem 0.9rem;
+    border-radius: 16px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    word-break: break-word;
+}
+.chat-row.right .chat-bubble { border-bottom-right-radius: 4px; }
+.chat-row.left  .chat-bubble { border-bottom-left-radius: 4px; }
+.chat-time {
+    font-size: 0.68rem;
+    color: #bbb;
+    margin-top: 0.15rem;
+    padding: 0 0.3rem;
+}
